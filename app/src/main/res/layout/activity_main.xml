@@ -27,7 +27,9 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"
+                android:textStyle="italic"
                 android:textColor="@color/white"
+                android:textColorHint="@android:color/darker_gray"
                 android:backgroundTint="@color/colorPrimaryDark"/>
 
             <EditText
@@ -38,7 +40,9 @@
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
                 android:singleLine="true"
+                android:textStyle="italic"
                 android:textColor="@color/white"
+                android:textColorHint="@android:color/darker_gray"
                 android:backgroundTint="@color/colorPrimaryDark" />
 
             <EditText
@@ -51,7 +55,9 @@
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:singleLine="true"
+                android:textStyle="italic"
                 android:textColor="@color/white"
+                android:textColorHint="@android:color/darker_gray"
                 android:backgroundTint="@color/colorPrimaryDark"/>
 
             <EditText
@@ -64,7 +70,9 @@
                 android:inputType="textPassword"
                 android:maxLines="1"
                 android:singleLine="true"
+                android:textStyle="italic"
                 android:textColor="@color/white"
+                android:textColorHint="@android:color/darker_gray"
                 android:backgroundTint="@color/colorPrimaryDark"/>
 
             <Button

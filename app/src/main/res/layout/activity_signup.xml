@@ -31,7 +31,9 @@
                     android:inputType="textEmailAddress"
                     android:maxLines="1"
                     android:singleLine="true"
+                    android:textStyle="italic"
                     android:textColor="@color/white"
+                    android:textColorHint="@android:color/darker_gray"
                     android:backgroundTint="@color/colorPrimaryDark"/>
 
 
@@ -44,7 +46,9 @@
                     android:imeOptions="actionUnspecified"
                     android:inputType="textPassword"
                     android:maxLines="1"
+                    android:textStyle="italic"
                     android:singleLine="true"
+                    android:textColorHint="@android:color/darker_gray"
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:textColor="@android:color/white" />
 
