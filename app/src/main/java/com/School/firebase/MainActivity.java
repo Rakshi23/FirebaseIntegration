@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         btnChangeEmail = (Button) findViewById(R.id.change_email_button);
         btnChangePassword = (Button) findViewById(R.id.change_password_button);
         btnSendResetEmail = (Button) findViewById(R.id.sending_pass_reset_button);
-        btnRemoveUser = (Button) findViewById(R.id.remove_user_button);
+//        btnRemoveUser = (Button) findViewById(R.id.remove_user_button);
         changeEmail = (Button) findViewById(R.id.changeEmail);
         changePassword = (Button) findViewById(R.id.changePass);
         sendEmail = (Button) findViewById(R.id.send);
@@ -205,6 +205,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+/*
         btnRemoveUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -228,6 +229,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+*/
 
         signOut.setOnClickListener(new View.OnClickListener() {
             @Override
